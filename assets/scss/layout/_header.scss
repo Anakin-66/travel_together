@@ -1,0 +1,28 @@
+.background-header {
+    background-color: $box-color;
+    border-radius: $radius;
+    position: relative;
+    overflow: hidden;
+    .travel-iphone {
+        width: 20vh;
+    }
+    .texte-header {
+        padding: 48px;
+        padding-top: 60px;
+        color: $text-color-1;
+    }
+    h1 {
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    .paragraphe-header {
+        margin-bottom: 32px;
+    }
+    .iphone {
+        width: 25vh;
+        position: absolute;
+        top: 70px;
+        right: 185px;
+        
+    }
+}

@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato/Lato-Regular.ttf");
+}
+body {
+  font-family: "Lato";
+}
+
+.espacement-nav {
+  margin-bottom: 50px;
+}
+.espacement-nav .nav {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.espacement-nav .nav .logo {
+  width: 20vh;
+}
+.espacement-nav .nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 50px;
+}
+.espacement-nav .nav ul .gras {
+  font-weight: bold;
+}
+
+.background-header {
+  background-color: #E7816B;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.background-header .travel-iphone {
+  width: 20vh;
+}
+.background-header .texte-header {
+  padding: 48px;
+  padding-top: 60px;
+  color: white;
+}
+.background-header h1 {
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.background-header .paragraphe-header {
+  margin-bottom: 32px;
+}
+.background-header .iphone {
+  width: 25vh;
+  position: absolute;
+  top: 70px;
+  right: 185px;
+}
+
+.espacement-main {
+  margin-top: 48px;
+}
+.espacement-main .service-1 {
+  background-image: url(/assets/img/homme-assis-batiment.jpg);
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.espacement-main .service-2 {
+  background-image: url(/assets/img/passport.jpg), url(/assets/img/montgolfiere.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.espacement-main .service-3 {
+  background-image: url(/assets/img/montgolfiere.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.espacement-main h3 {
+  color: white;
+}
+.espacement-main .button-2 {
+  text-decoration: none;
+  color: white;
+}
+.espacement-main .button-2 .color-arrow {
+  color: #E7816B;
+}
+
+.wave {
+  background-image: url(/assets/img/wave.svg);
+}
+
+.xd {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 13%;
+}
+
+.xdd {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 20%;
+}
+
+section {
+  background-image: url(/assets/img/wave.svg);
+}
+
+.footer-color {
+  background-color: black;
+  position: relative;
+}
+.footer-color .lulspin {
+  position: absolute;
+  bottom: 150px;
+  left: 300px;
+}
+.footer-color .box-footer {
+  background-color: #E7816B;
+  border-radius: 10px;
+  padding: 48px;
+  padding-top: 60px;
+  color: white;
+}
+.footer-color .box-footer .position-bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding-top: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .logo-2 {
+  width: 20vh;
+}
+.footer .footer-color {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  color: white;
+  gap: 50px;
+}
+
+.bordure {
+  border-top: 1px solid #464647;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-button {
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.secondary-button {
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-color {
+    background-color: black;
+    position: relative;
+  }
+  .footer-color .lulspin {
+    position: absolute;
+    bottom: 110px;
+    left: 23px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
